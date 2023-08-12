@@ -1,0 +1,35 @@
+_id: req_wrk_387307ca13374155a49b5f1e30c6b8a3fe3d55d0
+type: Request
+parentId: fld_wrk_387307ca13374155a49b5f1e30c6b8a312dea96f
+modified: 1691817108400
+created: 1691817108400
+url: "{{ base_url }}/user"
+name: Create user
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 0,
+      "username": "string",
+      "firstName": "string",
+      "lastName": "string",
+      "email": "string",
+      "password": "string",
+      "phone": "string",
+      "userStatus": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1691817108400
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
